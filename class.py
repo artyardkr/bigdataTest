@@ -22,6 +22,9 @@ print(cat.type,cat.name,cat.age)
 
 #자기소개(먼저할때 강아지이름은 뽀삐입니다 할거 적어놓고 나중에 하나씩 수정)
 def introduce(self):
-        print(f'self.type)의 이름은 (self.name)입니다')
+        print(f'(self.type)의 이름은 (self.name)입니다')
 
 dog.introduce()
+
+def eat(self,food):
+    print(f'{self.name}은 {food}를 먹는다')
